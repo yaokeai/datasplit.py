@@ -6,6 +6,11 @@ kjWorkBook = Excel.OpenExcel("C:\\Users\\Vincent_wei\\Desktop\\会计科目 .xls
 arrayRet = Excel.GetSheetsName(objExcelWorkBook)
 Excel.ActiveSheet(kjWorkBook,"会计科目")
 iRet = Excel.GetRowsCount(kjWorkBook,"会计科目")
-For Each value In arrayRet
+For Each value In iRet
 	
+	#icon("@res:nve1rpbq-ftu0-3n1c-1cm4-juj4t0n23jji.png")
+	Image.Click({"wnd":[{"cls":"SunAwtFrame","title":"斯凯奇EAS财务系统-SkxEAS","app":"javaw"}]},{"height":0,"width":0,"x":0,"y":0},@res"nve1rpbq-ftu0-3n1c-1cm4-juj4t0n23jji.png",0.9,"left","click",10000,{"bContinueOnError":False,"iDelayAfter":300,"iDelayBefore":200,"bSetForeground":True,"sCursorPosition":"Center","iCursorOffsetX":0,"iCursorOffsetY":0,"sKeyModifiers":[],"sSimulate":"simulate","sMatchType":"GrayMatch","iSerialNo":1})
+	Keyboard.Input("会计科目",{"iDelayAfter":300,"iDelayBefore":200,"sSimulate":"message"})
+	Keyboard.Press("Enter", "press", [],{"iDelayAfter":300,"iDelayBefore":200,"sSimulate":"simulate"})
+	Excel.ActiveSheet(objExcelWorkBook,"Sheet1")
 Next
