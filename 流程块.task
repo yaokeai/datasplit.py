@@ -1,0 +1,3 @@
+Dim objExcelWorkBook = ""
+
+objExcelWorkBook = Excel.OpenExcel("C:\\Users\\Vincent_wei\\Desktop\\会计科目 .xlsx",True,"Excel","","")
