@@ -29,11 +29,21 @@ For Each value In iRet
 		Keyboard.Press("Delete", "press", [],{"iDelayAfter":300,"iDelayBefore":200,"sSimulate":"simulate"})
 		Keyboard.Input(compid,{"iDelayAfter":300,"iDelayBefore":200,"sSimulate":"message"})
 		#icon("@res:mqbq24rs-1s04-2vk6-jfu6-bgqtcf5crleg.png")
-		Image.Click({"wnd":[{"cls":"SunAwtFrame","title":"斯凯奇EAS财务系统-SkxEAS","app":"javaw"}]},{"height":0,"width":0,"x":0,"y":0},@res"mqbq24rs-1s04-2vk6-jfu6-bgqtcf5crleg.png",0.9,"left","click",10000,{"bContinueOnError":False,"iDelayAfter":300,"iDelayBefore":200,"bSetForeground":True,"sCursorPosition":"Center","iCursorOffsetX":0,"iCursorOffsetY":0,"sKeyModifiers":[],"sSimulate":"simulate","sMatchType":"GrayMatch","iSerialNo":1})
+		Image.Click({"wnd":[{"cls":"SunAwtFrame","title":"斯凯奇EAS财务系统-SkxEAS","app":"javaw"}]},{"height":0,"width":0,"x":0,"y":0},@res"mqbq24rs-1s04-2vk6-jfu6-bgqtcf5crleg.png",0.5,"left","click",10000,{"bContinueOnError":False,"iDelayAfter":300,"iDelayBefore":200,"bSetForeground":True,"sCursorPosition":"Center","iCursorOffsetX":0,"iCursorOffsetY":0,"sKeyModifiers":[],"sSimulate":"simulate","sMatchType":"GrayMatch","iSerialNo":1})
 		Keyboard.Input(km,{"iDelayAfter":300,"iDelayBefore":200,"sSimulate":"message"})
 		Keyboard.Press("Enter", "press", [],{"iDelayAfter":300,"iDelayBefore":200,"sSimulate":"simulate"})
+		#icon("@res:o40c8f3e-gup5-u0ld-sce0-ak23ajg2ih19.png")
+		Image.Click({"wnd":[{"cls":"SunAwtFrame","title":"斯凯奇EAS财务系统-SkxEAS","app":"javaw"}]},{"height":0,"width":0,"x":0,"y":0},@res"o40c8f3e-gup5-u0ld-sce0-ak23ajg2ih19.png",0.9,"left","click",10000,{"bContinueOnError":False,"iDelayAfter":300,"iDelayBefore":200,"bSetForeground":True,"sCursorPosition":"Center","iCursorOffsetX":0,"iCursorOffsetY":0,"sKeyModifiers":[],"sSimulate":"simulate","sMatchType":"GrayMatch","iSerialNo":1})
+		#icon("@res:m4kp7ev0-5sg1-d0vn-mnk9-27a17qgee0ko.png")
+		Image.Click({"wnd":[{"cls":"SunAwtFrame","title":"斯凯奇EAS财务系统-SkxEAS","app":"javaw"}]},{"height":0,"width":0,"x":0,"y":0},@res"m4kp7ev0-5sg1-d0vn-mnk9-27a17qgee0ko.png",0.9,"left","click",10000,{"bContinueOnError":False,"iDelayAfter":300,"iDelayBefore":200,"bSetForeground":True,"sCursorPosition":"Center","iCursorOffsetX":0,"iCursorOffsetY":0,"sKeyModifiers":[],"sSimulate":"simulate","sMatchType":"GrayMatch","iSerialNo":1})
+		#icon("@res:na92h14v-3acf-ir5j-l950-27ndrqdte5il.png")
+		Image.Click({"wnd":[{"cls":"SunAwtFrame","title":"斯凯奇EAS财务系统-SkxEAS","app":"javaw"}]},{"height":0,"width":0,"x":0,"y":0},@res"na92h14v-3acf-ir5j-l950-27ndrqdte5il.png",0.9,"left","click",10000,{"bContinueOnError":False,"iDelayAfter":300,"iDelayBefore":200,"bSetForeground":True,"sCursorPosition":"Center","iCursorOffsetX":0,"iCursorOffsetY":0,"sKeyModifiers":[],"sSimulate":"simulate","sMatchType":"GrayMatch","iSerialNo":1})
+		#icon("@res:rjdreetr-lsc5-23ld-jmkv-4eijicj8i64g.png")
+		Image.Click({"wnd":[{"cls":"SunAwtFrame","title":"斯凯奇EAS财务系统-SkxEAS","app":"javaw"}]},{"height":0,"width":0,"x":0,"y":0},@res"rjdreetr-lsc5-23ld-jmkv-4eijicj8i64g.png",0.9,"left","click",10000,{"bContinueOnError":False,"iDelayAfter":300,"iDelayBefore":200,"bSetForeground":True,"sCursorPosition":"Center","iCursorOffsetX":0,"iCursorOffsetY":0,"sKeyModifiers":[],"sSimulate":"simulate","sMatchType":"GrayMatch","iSerialNo":1})
+		Keyboard.Input(fuzhu,{"iDelayAfter":300,"iDelayBefore":200,"sSimulate":"message"})
+		Keyboard.Press("Enter", "press", [],{"iDelayAfter":300,"iDelayBefore":200,"sSimulate":"simulate"})
 		#icon("@res:default.png")
-		Image.Click({},{"height":0,"width":0,"x":0,"y":0},"",0.9,"left","click",10000,{"bContinueOnError":False,"iDelayAfter":300,"iDelayBefore":200,"bSetForeground":True,"sCursorPosition":"Center","iCursorOffsetX":0,"iCursorOffsetY":0,"sKeyModifiers":[],"sSimulate":"simulate","sMatchType":"GrayMatch","iSerialNo":1})
+		Image.Click({"wnd":[{"cls":"SunAwtFrame","title":"斯凯奇EAS财务系统-SkxEAS","app":"javaw"}]},{"height":0,"width":0,"x":0,"y":0},@res"vq118pe0-rg8g-pkk8-7c2e-k3j7c6frndat.png",0.9,"left","click",10000,{"bContinueOnError":False,"iDelayAfter":300,"iDelayBefore":200,"bSetForeground":True,"sCursorPosition":"Center","iCursorOffsetX":0,"iCursorOffsetY":0,"sKeyModifiers":[],"sSimulate":"simulate","sMatchType":"GrayMatch","iSerialNo":1})
 	Next
 Next
 
