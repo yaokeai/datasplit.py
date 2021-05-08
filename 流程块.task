@@ -1,3 +1,6 @@
+Dim arrayRet = ""
 Dim objExcelWorkBook = ""
 
-objExcelWorkBook = Excel.OpenExcel("C:\\Users\\Vincent_wei\\Desktop\\会计科目 .xlsx",True,"Excel","","")
+kjWorkBook = Excel.OpenExcel("C:\\Users\\Vincent_wei\\Desktop\\会计科目 .xlsx",True,"Excel","","")
+arrayRet = Excel.GetSheetsName(objExcelWorkBook)
+Excel.ActiveSheet(objExcelWorkBook,"Sheet1")
