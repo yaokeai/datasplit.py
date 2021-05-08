@@ -3,12 +3,14 @@ Dim iRet = ""
 Dim arrayRet = ""
 Dim sRet = ""
 Dim km = ""
+Dim bRet = ""
 Dim objExcelWorkBook = ""
 
 kjWorkBook = Excel.OpenExcel("C:\\Users\\Vincent_wei\\Desktop\\会计科目 .xlsx",True,"Excel","","")
-arrayRet = Excel.GetSheetsName(objExcelWorkBook)
+arrayRet = Excel.GetSheetsName(kjWorkBook)
 Excel.ActiveSheet(kjWorkBook,"会计科目")
 iRet = Excel.GetRowsCount(kjWorkBook,"会计科目")
+bRet = IsArray(varData)
 For Each value In iRet
 	
 	#icon("@res:nve1rpbq-ftu0-3n1c-1cm4-juj4t0n23jji.png")
@@ -42,8 +44,16 @@ For Each value In iRet
 		Image.Click({"wnd":[{"cls":"SunAwtFrame","title":"斯凯奇EAS财务系统-SkxEAS","app":"javaw"}]},{"height":0,"width":0,"x":0,"y":0},@res"rjdreetr-lsc5-23ld-jmkv-4eijicj8i64g.png",0.9,"left","click",10000,{"bContinueOnError":False,"iDelayAfter":300,"iDelayBefore":200,"bSetForeground":True,"sCursorPosition":"Center","iCursorOffsetX":0,"iCursorOffsetY":0,"sKeyModifiers":[],"sSimulate":"simulate","sMatchType":"GrayMatch","iSerialNo":1})
 		Keyboard.Input(fuzhu,{"iDelayAfter":300,"iDelayBefore":200,"sSimulate":"message"})
 		Keyboard.Press("Enter", "press", [],{"iDelayAfter":300,"iDelayBefore":200,"sSimulate":"simulate"})
-		#icon("@res:default.png")
-		Image.Click({"wnd":[{"cls":"SunAwtFrame","title":"斯凯奇EAS财务系统-SkxEAS","app":"javaw"}]},{"height":0,"width":0,"x":0,"y":0},@res"vq118pe0-rg8g-pkk8-7c2e-k3j7c6frndat.png",0.9,"left","click",10000,{"bContinueOnError":False,"iDelayAfter":300,"iDelayBefore":200,"bSetForeground":True,"sCursorPosition":"Center","iCursorOffsetX":0,"iCursorOffsetY":0,"sKeyModifiers":[],"sSimulate":"simulate","sMatchType":"GrayMatch","iSerialNo":1})
+		#icon("@res:fv73fv1h-hb17-2jbc-csap-877n73brbc8j.png")
+		Image.Click({"wnd":[{"cls":"SunAwtFrame","title":"斯凯奇EAS财务系统-SkxEAS","app":"javaw"}]},{"height":0,"width":0,"x":0,"y":0},@res"fv73fv1h-hb17-2jbc-csap-877n73brbc8j.png",0.9,"left","click",10000,{"bContinueOnError":False,"iDelayAfter":300,"iDelayBefore":200,"bSetForeground":True,"sCursorPosition":"Center","iCursorOffsetX":0,"iCursorOffsetY":0,"sKeyModifiers":[],"sSimulate":"simulate","sMatchType":"GrayMatch","iSerialNo":1})
+		Keyboard.Input("无",{"iDelayAfter":300,"iDelayBefore":200,"sSimulate":"message"})
+		#icon("@res:m03sq9gd-g1a2-qnoi-h47q-nc6v888ksh77.png")
+		Image.Click({"wnd":[{"cls":"SunAwtFrame","title":"斯凯奇EAS财务系统-SkxEAS","app":"javaw"}]},{"height":0,"width":0,"x":0,"y":0},@res"m03sq9gd-g1a2-qnoi-h47q-nc6v888ksh77.png",0.9,"left","click",10000,{"bContinueOnError":False,"iDelayAfter":300,"iDelayBefore":200,"bSetForeground":True,"sCursorPosition":"Center","iCursorOffsetX":0,"iCursorOffsetY":0,"sKeyModifiers":[],"sSimulate":"simulate","sMatchType":"GrayMatch","iSerialNo":1})
+		#icon("@res:dkgut4st-rppi-8pa8-v1bh-phq2viauepka.png")
+		Image.Click({"wnd":[{"cls":"SunAwtFrame","title":"斯凯奇EAS财务系统-SkxEAS","app":"javaw"}]},{"height":0,"width":0,"x":0,"y":0},@res"dkgut4st-rppi-8pa8-v1bh-phq2viauepka.png",0.9,"left","click",10000,{"bContinueOnError":False,"iDelayAfter":300,"iDelayBefore":200,"bSetForeground":True,"sCursorPosition":"Center","iCursorOffsetX":0,"iCursorOffsetY":0,"sKeyModifiers":[],"sSimulate":"simulate","sMatchType":"GrayMatch","iSerialNo":1})
+		#icon("@res:mrjom9ei-ln2g-knu9-88um-94gqjhoa2r6q.png")
+		Image.Click({"wnd":[{"cls":"SunAwtFrame","title":"斯凯奇EAS财务系统-SkxEAS","app":"javaw"}]},{"height":0,"width":0,"x":0,"y":0},@res"mrjom9ei-ln2g-knu9-88um-94gqjhoa2r6q.png",0.9,"left","click",10000,{"bContinueOnError":False,"iDelayAfter":300,"iDelayBefore":200,"bSetForeground":True,"sCursorPosition":"Center","iCursorOffsetX":0,"iCursorOffsetY":0,"sKeyModifiers":[],"sSimulate":"simulate","sMatchType":"GrayMatch","iSerialNo":1})
 	Next
 Next
+
 
