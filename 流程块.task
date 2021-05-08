@@ -18,9 +18,13 @@ For Each value In iRet
 	zjrow = Excel.GetRowsCount(kjWorkBook,"组织架构")
 	n=1
 	For Each value1 In zjrow
-		skx="A"+n
+		ny = CStr(n)
+		skx="A"&ny
 		objRet = Excel.ReadCell(objExcelWorkBook,"Sheet1",skx)
-		sRet = CStr(skx)
+		#icon("@res:7euf7cgn-8eo3-dkb7-tl4h-b39e325f3lil.png")
+		Image.Click({"wnd":[{"cls":"SunAwtFrame","title":"斯凯奇EAS财务系统-SkxEAS","app":"javaw"}]},{"height":0,"width":0,"x":0,"y":0},@res"7euf7cgn-8eo3-dkb7-tl4h-b39e325f3lil.png",0.9,"left","click",10000,{"bContinueOnError":False,"iDelayAfter":300,"iDelayBefore":200,"bSetForeground":True,"sCursorPosition":"Center","iCursorOffsetX":0,"iCursorOffsetY":0,"sKeyModifiers":[],"sSimulate":"simulate","sMatchType":"GrayMatch","iSerialNo":1})
+		Keyboard.Press("Delete", "press", [],{"iDelayAfter":300,"iDelayBefore":200,"sSimulate":"simulate"})
+		Keyboard.Input("",{"iDelayAfter":300,"iDelayBefore":200,"sSimulate":"message"})
 	Next
 Next
 
