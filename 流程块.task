@@ -1,6 +1,7 @@
 Dim objRet = ""
 Dim iRet = ""
 Dim arrayRet = ""
+Dim sRet = ""
 Dim objExcelWorkBook = ""
 
 kjWorkBook = Excel.OpenExcel("C:\\Users\\Vincent_wei\\Desktop\\会计科目 .xlsx",True,"Excel","","")
@@ -15,8 +16,11 @@ For Each value In iRet
 	Keyboard.Press("Enter", "press", [],{"iDelayAfter":300,"iDelayBefore":200,"sSimulate":"simulate"})
 	Excel.ActiveSheet(kjWorkBook,"组织架构")
 	zjrow = Excel.GetRowsCount(kjWorkBook,"组织架构")
+	n=1
 	For Each value1 In zjrow
-		skx="A"+
-		objRet = Excel.ReadCell(objExcelWorkBook,"Sheet1","A"+value1)
+		skx="A"+n
+		objRet = Excel.ReadCell(objExcelWorkBook,"Sheet1",skx)
+		sRet = CStr(skx)
 	Next
 Next
+
