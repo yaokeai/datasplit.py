@@ -3,4 +3,4 @@ Dim objExcelWorkBook = ""
 
 kjWorkBook = Excel.OpenExcel("C:\\Users\\Vincent_wei\\Desktop\\会计科目 .xlsx",True,"Excel","","")
 arrayRet = Excel.GetSheetsName(objExcelWorkBook)
-Excel.ActiveSheet(objExcelWorkBook,"Sheet1")
+Excel.ActiveSheet(kjWorkBook,"会计科目")
